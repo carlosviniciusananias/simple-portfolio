@@ -2,6 +2,8 @@
 import React, { Component } from 'react';
 // Importando o Component Header
 import Header from './components/header/header'
+import Contact from './components/contact/contact'
+import Footer from './components/footer/footer'
 // Importando o component Main
 import Main from './main'
 
@@ -11,6 +13,8 @@ class App extends Component {
       <div>
         <Header />
         <Main />
+        <Contact />
+        <Footer />
       </div>
     );
   }
