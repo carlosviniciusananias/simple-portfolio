@@ -1,0 +1,16 @@
+ul {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.menu-section {
+    padding: 10px 0;
+    background-color: #ededed;
+}
