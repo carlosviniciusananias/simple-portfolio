@@ -10,13 +10,13 @@ export default class Liquida extends Component {
 
                 <div className="offers">
                     <div className="box-banner">
-                        <a href="/"><img src="http://placehold.it/380x620/357/fff" alt="" /></a>
+                        <a href="/"><img src="http://placehold.it/400x620/357/fff" alt="" /></a>
                     </div>
                     <div className="box-banner">
-                        <a href="/"><img src="http://placehold.it/380x620/357/fff" alt="" /></a>
+                        <a href="/"><img src="http://placehold.it/400x620/357/fff" alt="" /></a>
                     </div>
                     <div className="box-banner">
-                        <a href="/"><img src="http://placehold.it/380x620/357/fff" alt="" /></a>
+                        <a href="/"><img src="http://placehold.it/400x620/357/fff" alt="" /></a>
                     </div>
                 </div>
             </div>
