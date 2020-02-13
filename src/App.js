@@ -2,7 +2,8 @@
 import React, { Component } from 'react';
 
 import Header from './components/header/header'
-import Banner from './components/header/banner'
+import Banner from './components/banner/banner'
+import Liquida from './components/liquida/liquida'
 import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
 
@@ -14,9 +15,9 @@ class App extends Component {
       <div>
         <Header />
         <Banner />
+        <Liquida />
 
         <Contact />
-
         <Footer />
       </div>
     );

@@ -1,0 +1,28 @@
+#form {
+    text-align: center;
+    margin: 40px 0;
+}
+
+#form label {
+    display: none;
+}
+
+#form input,
+#form textarea {
+    min-width: 550px;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+#form textarea {
+    padding: 40px 5px;
+}
+
+#form button {
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 10px 30px;
+}
+

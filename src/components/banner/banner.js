@@ -8,7 +8,9 @@ export default class Banner extends Component {
     render() {
         const settings = {
             dots: true,
+            arrows: false,
             infinite: true,
+            autoplay: true,
             speed: 500,
             slidesToShow: 1,
             slidesToScroll: 1
@@ -17,10 +19,14 @@ export default class Banner extends Component {
             <div>
                 <Slider {...settings}>
                     <div>
-                        <img src="http://placehold.it/1920x300/222/FFF" alt="" />
+                        <a href="/">
+                            <img src="http://placehold.it/1920x550/159/FFF" alt="" />
+                        </a>
                     </div>
                     <div>
-                        <img src="http://placehold.it/1920x300/222/FFF" alt="" />
+                        <a href="/">
+                            <img src="http://placehold.it/1920x550/357/fff" alt="" />
+                        </a>
                     </div>
                 </Slider>
             </div>

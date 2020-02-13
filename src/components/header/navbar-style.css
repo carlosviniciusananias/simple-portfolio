@@ -1,4 +1,9 @@
-nav p {
+.navbar-section {
+    background-color: #ededed;
+    padding: 5px 0;
+}
+
+.navbar-section p {
     text-align: center;
-    margin: 10px 0;
+    margin: 0;
 }
