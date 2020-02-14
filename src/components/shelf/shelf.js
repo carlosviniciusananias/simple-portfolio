@@ -30,22 +30,24 @@ export default class Shelf extends Component {
             slidesToScroll: 1
         };
         return (
-            <div className="shelf-section container">
-                <Slider {...settings}>
-                    {this.state.products.map(product =>
-                        <div className="shelf-item">
-                            <div className="shelf-img">
-                                <img src={product.img} alt={product.name} />
+            <div className="shelf-section">
+                <div className="container">
+                    <Slider {...settings}>
+                        {this.state.products.map(product =>
+                            <div className="shelf-item">
+                                <div className="shelf-img">
+                                    <img src={product.img} alt={product.name} />
+                                </div>
+                                <div className="shelf-name">
+                                    <p>{product.name}</p>
+                                </div>
+                                <div className="shelf-price">
+                                    <p>{product.price}</p>
+                                </div>
                             </div>
-                            <div className="shelf-name">
-                                <p>{product.name}</p>
-                            </div>
-                            <div className="shelf-price">
-                                <p>{product.price}</p>
-                            </div>
-                        </div>
-                    )}
-                </Slider>
+                        )}
+                    </Slider>
+                </div>
             </div>
         )
     }

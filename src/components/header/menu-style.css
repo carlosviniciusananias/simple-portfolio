@@ -1,3 +1,9 @@
+.menu-section {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .menu-section ul {
     margin: 0;
     padding: 0;
@@ -12,5 +18,18 @@
 
 .menu-section {
     padding: 10px 0;
-    background-color: #ededed;
+}
+
+.menu-section .form-search {
+    text-align: right;
+}
+
+.menu-section .form-control {
+    min-width: 200px;
+    height: 34px;
+}
+
+.menu-section .btn-sucess {
+    height: 40px;
+    border-radius: 0;
 }

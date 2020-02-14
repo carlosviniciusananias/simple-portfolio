@@ -14,9 +14,6 @@ p {
 }
 
 button {
-    border-radius: 20px;
-    border: 1px solid #000;
-    padding: 10px 15px;
     cursor: pointer;
 }
 
@@ -30,6 +27,5 @@ textarea:focus {
 
 .container {
     max-width: 1200px;
-    padding: 50px 0 0 0;
     margin: 10px auto;
 }
