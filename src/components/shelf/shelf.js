@@ -23,15 +23,14 @@ export default class Shelf extends Component {
     render() {
         const settings = {
             dots: true,
-            arrows: false,
             infinite: true,
-            autoplay: false,
-            speed: 500,
+            autoplay: true,
+            speed: 1000,
             slidesToShow: 4,
             slidesToScroll: 1
         };
         return (
-            <div className="shelf-section">
+            <div className="shelf-section container">
                 <Slider {...settings}>
                     {this.state.products.map(product =>
                         <div className="shelf-item">
@@ -44,7 +43,8 @@ export default class Shelf extends Component {
                             <div className="shelf-price">
                                 <p>{product.price}</p>
                             </div>
-                        </div>)}
+                        </div>
+                    )}
                 </Slider>
             </div>
         )

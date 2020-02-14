@@ -15,6 +15,5 @@
 
 .offers {
     display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(3, 420px);
+    grid-template-columns: repeat(3, 425px);
 }

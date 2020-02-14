@@ -1,6 +1,6 @@
 // Importando o React
 import React from "react";
-import { Form, TextField, TextareaField, SubmitField } from 'react-components-form';
+import { Form, TextField, SubmitField } from 'react-components-form';
 import Schema from 'form-schema-validation';
 
 import './contact-style.css';
@@ -21,16 +21,27 @@ const formSchema = new Schema({
 });
 
 const Contact = () => (
-    <Form
-        schema={formSchema}
-        onSubmit={model => console.log(model)}
-        onError={(errors, data) => console.log('error', errors, data)}
-    >
-        <TextField name="name" label="name" type="text" placeholder="Nome completo" />
-        <TextField name="email" label="email" type="text" placeholder="Digite seu e-mail" />
-        <TextareaField name="description" label="description" type="description" placeholder="Assunto" />
-        <SubmitField value="Submit" />
-    </Form>
+    <div className="contact-section">
+        <Form
+            schema={formSchema}
+            onSubmit={model => console.log(model)}
+            onError={(errors, data) => console.log('error', errors, data)}
+        >
+            <div className="ct-container">
+                <div className="contact-title">
+                    <p>RECEBA NOVIDADES</p>
+                    <p><strong>POR E-MAIL</strong></p>
+                </div>
+
+                <div className="contact">
+                    <TextField name="name" label="name" type="text" placeholder="Seu nome" />
+                    <TextField name="email" label="email" type="text" placeholder="Seu e-mail" />
+                    <TextField name="cpf" label="cpf" type="text" placeholder="Seu CPF" />
+                    <SubmitField value="Submit" />
+                </div>
+            </div>
+        </Form>
+    </div>
 );
 
 export default Contact;

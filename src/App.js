@@ -16,8 +16,8 @@ class App extends Component {
       <div>
         <Header />
         <Banner />
-        <Liquida />
 
+        <Liquida />
         <Shelf />
 
         <Contact />

@@ -1,11 +1,11 @@
-ul {
+.menu-section ul {
     margin: 0;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
 
-ul li {
+.menu-section ul li {
     list-style: none;
     text-align: center;
 }
