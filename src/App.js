@@ -5,6 +5,7 @@ import Header from './components/header/header'
 import Banner from './components/banner/banner'
 import Liquida from './components/liquida/liquida'
 import Shelf from './components/shelf/shelf'
+import LiquidaNews from './components/liquida-news/liquidaNews'
 import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
 
@@ -19,6 +20,7 @@ class App extends Component {
 
         <Liquida />
         <Shelf />
+        <LiquidaNews />
 
         <Contact />
         <Footer />
