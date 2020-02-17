@@ -3,7 +3,32 @@
     padding: 5px 0;
 }
 
+.navbar-section .container {
+    position: relative;
+}
+
 .navbar-section p {
     text-align: center;
     margin: 0;
+}
+
+.my-account {
+    position: absolute;
+    top: 0;
+    right: 10%;
+}
+
+.buy {
+    position: absolute;
+    top: 0;
+    right: 15%;
+}
+
+.my-account ul {
+    display: none;
+}
+
+.my-account img,
+.buy img {
+    max-width: 25px;
 }

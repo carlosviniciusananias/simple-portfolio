@@ -1,3 +1,11 @@
 .shelf-section {
     margin: 50px 0;
 }
+
+.shelf-item {
+    max-width: 295px;
+}
+
+.shelf-item .shelf-name {
+    margin: 10px 0;
+}

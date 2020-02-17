@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import './menu-style.css';
+import SearchImg from './images/search.png'
 
 export default class Menu extends Component {
     render() {
@@ -20,7 +21,7 @@ export default class Menu extends Component {
 
                 <form className="form-search">
                     <input type="text" className="form-control" placeholder="Search" />
-                    <button className="btn btn-sucess" type="submit">Search</button>
+                    <button className="btn btn-sucess" type="submit"><img src={SearchImg} alt="Search" /></button>
                 </form>
             </div>
         );

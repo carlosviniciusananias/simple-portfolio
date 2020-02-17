@@ -22,14 +22,23 @@
 
 .menu-section .form-search {
     text-align: right;
+    position: relative;
 }
 
 .menu-section .form-control {
     min-width: 200px;
+    padding: 0 10px;
     height: 34px;
 }
 
 .menu-section .btn-sucess {
     height: 40px;
-    border-radius: 0;
+    position: absolute;
+    right: 0;
+    border: none;
+    background: none;
+}
+
+.form-search img {
+    max-width: 25px;
 }
