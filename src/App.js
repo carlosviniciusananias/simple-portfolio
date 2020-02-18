@@ -21,6 +21,7 @@ class App extends Component {
         <Liquida />
         <Shelf />
         <LiquidaNews />
+        <Shelf />
 
         <Contact />
         <Footer />

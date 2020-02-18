@@ -1,28 +1,22 @@
 import React, { Component } from "react";
 
 import './menu-style.css';
-import SearchImg from './images/search.png'
 
 export default class Menu extends Component {
     render() {
         return (
             <div className="menu-section container">
                 <div>
-                    <a href="/"><img src="http://placehold.it/134x50/000/fff" alt="" /></a>
+                    <a href="/"><img src="" alt="" />Logo</a>
                 </div>
 
                 <ul className="menu-content">
-                    <li className="menu__item">menu 1</li>
-                    <li className="menu__item">menu 2</li>
-                    <li className="menu__item">menu 3</li>
-                    <li className="menu__item">menu 4</li>
-                    <li className="menu__item">menu 5</li>
+                    <li className="menu__item">FEMININO</li>
+                    <li className="menu__item">MASCULINO</li>
+                    <li className="menu__item">INFANTIL</li>
+                    <li className="menu__item">ATIVIDADE</li>
+                    <li className="menu__item">OUTLET</li>
                 </ul>
-
-                <form className="form-search">
-                    <input type="text" className="form-control" placeholder="Search" />
-                    <button className="btn btn-sucess" type="submit"><img src={SearchImg} alt="Search" /></button>
-                </form>
             </div>
         );
     }

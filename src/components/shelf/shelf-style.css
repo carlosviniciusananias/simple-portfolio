@@ -1,11 +1,10 @@
-.shelf-section {
-    margin: 50px 0;
+.main--title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
 
-.shelf-item {
-    max-width: 295px;
-}
-
-.shelf-item .shelf-name {
-    margin: 10px 0;
+.main--title span {
+    font-weight: bold;
 }

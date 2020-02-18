@@ -12,23 +12,12 @@
     margin: 0;
 }
 
-.my-account {
-    position: absolute;
-    top: 0;
-    right: 10%;
-}
-
 .buy {
     position: absolute;
     top: 0;
-    right: 15%;
+    right: 0;
 }
 
-.my-account ul {
-    display: none;
-}
-
-.my-account img,
 .buy img {
     max-width: 25px;
 }
