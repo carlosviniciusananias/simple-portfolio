@@ -44,7 +44,7 @@ export default class Shelf extends Component {
         return (
             <ShelfSection>
                 <div className="container">
-                    <h2 className="main--title"><span>CA-MI-SE-TAS!</span> Siga a tendência!</h2>
+                    <h2 className="main--title"><span>CA-MI-SE-TAS!</span> As melhores marcas!</h2>
                     <Slider {...settings}>
                         {this.state.products.map(product =>
                             <ShelfItem>

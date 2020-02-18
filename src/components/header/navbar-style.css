@@ -1,6 +1,6 @@
 .navbar-section {
     background-color: #ededed;
-    padding: 5px 0;
+    padding: 1px 0;
 }
 
 .navbar-section .container {
@@ -10,14 +10,4 @@
 .navbar-section p {
     text-align: center;
     margin: 0;
-}
-
-.buy {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.buy img {
-    max-width: 25px;
 }

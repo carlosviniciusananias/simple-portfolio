@@ -8,10 +8,7 @@ export default class Navbar extends Component {
         return (
             <nav className="navbar-section">
                 <div className="container">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <div className="buy">
-                        <span><img src={Buy} alt="Buy" /></span>
-                    </div>
+                    <p>Frete grátis para compras ácima de <strong>R$299,00</strong></p>
                 </div>
             </nav>
         );
