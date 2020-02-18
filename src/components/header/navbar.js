@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 import './navbar-style.css';
-import Buy from './images/buy.png'
 
 export default class Navbar extends Component {
     render() {
