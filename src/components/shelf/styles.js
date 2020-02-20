@@ -9,7 +9,9 @@ export const Title = styled.h2`
     span {
         font-weight: bold;
     }
-`; export const ShelfSection = styled.div`
+`;
+
+export const ShelfSection = styled.div`
     margin: 50px 0;
 
     .slick-prev:before,

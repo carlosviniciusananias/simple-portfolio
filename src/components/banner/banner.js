@@ -4,11 +4,13 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import { Main } from "./styles"
+
 export default class Banner extends Component {
     render() {
         const settings = {
-            dots: true,
-            arrows: false,
+            dots: false,
+            arrow: true,
             infinite: true,
             autoplay: true,
             speed: 500,
@@ -16,7 +18,7 @@ export default class Banner extends Component {
             slidesToScroll: 1
         };
         return (
-            <div>
+            <Main>
                 <Slider {...settings}>
                     <div>
                         <a href="/">
@@ -29,7 +31,7 @@ export default class Banner extends Component {
                         </a>
                     </div>
                 </Slider>
-            </div>
+            </Main>
         );
     }
 }

@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 
 import Header from './components/header/header'
 import Banner from './components/banner/banner'
+import Benefits from './components/benefitsBar/benefits'
 import Liquida from './components/liquida/liquida'
 import Shelf from './components/shelf/shelf'
 import LiquidaNews from './components/liquida-news/liquidaNews'
@@ -17,6 +18,7 @@ class App extends Component {
       <div>
         <Header />
         <Banner />
+        <Benefits />
 
         <Liquida />
         <Shelf />
