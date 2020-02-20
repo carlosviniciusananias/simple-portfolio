@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import axios from 'axios'
 import Slider from "react-slick";
-
 import { Title } from "./styles";
 import { ShelfSection } from "./styles";
 import { ShelfItem } from "./styles";
@@ -39,9 +38,8 @@ export default class Shelf extends Component {
             <ShelfSection>
                 <div className="container">
                     <Title>
-                        <span>CA-MI-SE-TAS!</span> As melhores marcas!
-                    </Title>
-                    <Slider {...settings}>
+                        <span>AS MELHORES</span> marcas você encontra aqui!
+                    </Title>                    <Slider {...settings}>
                         {this.state.products.map(product =>
                             <ShelfItem>
                                 <ShelfImg>
