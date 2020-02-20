@@ -5,11 +5,11 @@ import Linkedin from './images/linkedin.png'
 import Github from './images/github.png'
 import LogoReact from './images/react.png'
 
-import './footer-style.css'
+import { Section } from "./styles"
 
 const Footer = () => {
     return (
-        <div className="footer-section">
+        <Section>
             <div className="footer-about container">
                 <div className="about-items">
                     <h3>INSTITUCIONAL</h3>
@@ -52,7 +52,7 @@ const Footer = () => {
                 <p>© 2020 Use react. Rua react props, 999 - React do Facebook, SC. CEP: 89999-999. CNPJ: 99.999.999/0001-99</p>
                 <img src={LogoReact} alt="" />
             </div>
-        </div>
+        </Section>
     );
 };
 

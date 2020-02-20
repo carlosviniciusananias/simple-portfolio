@@ -1,5 +1,5 @@
 .navbar-section {
-    background-color: #ededed;
+    background-color: #000;;
     padding: 1px 0;
 }
 
@@ -9,5 +9,6 @@
 
 .navbar-section p {
     text-align: center;
+    color: #FFF;
     margin: 0;
 }

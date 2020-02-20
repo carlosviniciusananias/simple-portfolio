@@ -6,6 +6,7 @@ import { Title } from "./styles";
 import { ShelfSection } from "./styles";
 import { ShelfItem } from "./styles";
 import { ShelfName } from "./styles";
+import { ShelfImg } from "./styles";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -27,8 +28,9 @@ export default class Shelf extends Component {
     render() {
         const settings = {
             dots: true,
+            arrow: true,
             infinite: true,
-            autoplay: true,
+            autoplay: false,
             speed: 4000,
             slidesToShow: 4,
             slidesToScroll: 1
@@ -42,9 +44,9 @@ export default class Shelf extends Component {
                     <Slider {...settings}>
                         {this.state.products.map(product =>
                             <ShelfItem>
-                                <div className="shelf-img">
+                                <ShelfImg>
                                     <img src={product.image} alt={product.skuname} />
-                                </div>
+                                </ShelfImg>
                                 <ShelfName>
                                     <p>{product.skuname}</p>
                                 </ShelfName>

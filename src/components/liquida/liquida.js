@@ -11,7 +11,7 @@ export default class Liquida extends Component {
             <LiquidaSection>
                 <div className="container">
                     <Title>
-                        <span>LI-QUI-DA!</span> Motivos para amar nossa liquida!
+                        <span>LOOKS</span> Fresquinhos para você se manter no style!
                     </Title>
 
                     <Grid>

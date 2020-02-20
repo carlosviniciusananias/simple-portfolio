@@ -1,18 +1,25 @@
 import React, { Component } from "react";
+import axios from 'axios'
 
 import './menu-style.css';
 
 export default class Menu extends Component {
+    state = {
+        products: []
+    }
+
+    componentDidMount() {
+        axios.get(`http://demo5081211.mockable.io/header`)
+            .then(res => {
+                const headers = res.data;
+                this.setState({ headers });
+            })
+    }
+
     render() {
         return (
             <div className="menu-section container">
-                <ul className="menu-content">
-                    <li className="menu__item">FEMININO</li>
-                    <li className="menu__item">MASCULINO</li>
-                    <li className="menu__item">INFANTIL</li>
-                    <li className="menu__item">ATIVIDADE</li>
-                    <li className="menu__item">OUTLET</li>
-                </ul>
+                <ul id="menu" className="menu-content"></ul>
             </div>
         );
     }

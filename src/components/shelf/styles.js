@@ -13,6 +13,11 @@ export const Title = styled.h2`
 
 export const ShelfSection = styled.div`
     margin: 50px 0;
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: #000;
+    }
 `;
 
 export const ShelfItem = styled.div`
@@ -21,4 +26,11 @@ export const ShelfItem = styled.div`
 
 export const ShelfName = styled.p`
     margin: 10px 0;
+`;
+
+export const ShelfImg = styled.div`
+    img {
+        max-width: 295px;
+        max-height: 295px;
+    }
 `;
