@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const Main = styled.div`
+    padding: 15px 0;
+    background-color: #000;
+
     .item {
         display: flex;
         align-items: center;
@@ -9,6 +12,10 @@ export const Main = styled.div`
 
     .imgItem {
         margin-right: 20px;
+    }
+
+    .itemText {
+        color: #FFF;
     }
 `;
 
