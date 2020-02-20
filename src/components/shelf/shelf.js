@@ -1,22 +1,14 @@
 import React, { Component } from "react";
-import styled from 'styled-components';
 import axios from 'axios'
 import Slider from "react-slick";
-import "./shelf-style.css"
+
+import { Title } from "./styles";
+import { ShelfSection } from "./styles";
+import { ShelfItem } from "./styles";
+import { ShelfName } from "./styles";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
-const ShelfSection = styled.div`
-    margin: 50px 0;
-`;
-
-const ShelfItem = styled.div`
-    max-width: 295px;
-`;
-
-const ShelfName = styled.div`
-    margin: 10px 0;
-`;
 
 
 export default class Shelf extends Component {
@@ -44,18 +36,20 @@ export default class Shelf extends Component {
         return (
             <ShelfSection>
                 <div className="container">
-                    <h2 className="main--title"><span>CA-MI-SE-TAS!</span> As melhores marcas!</h2>
+                    <Title>
+                        <span>CA-MI-SE-TAS!</span> As melhores marcas!
+                    </Title>
                     <Slider {...settings}>
                         {this.state.products.map(product =>
                             <ShelfItem>
                                 <div className="shelf-img">
-                                    <img src={product.img} alt={product.name} />
+                                    <img src={product.image} alt={product.skuname} />
                                 </div>
                                 <ShelfName>
-                                    <p>{product.name}</p>
+                                    <p>{product.skuname}</p>
                                 </ShelfName>
                                 <div className="shelf-price">
-                                    <p>{product.price}</p>
+                                    <p>{product.bestPrice}</p>
                                 </div>
                             </ShelfItem>
                         )}

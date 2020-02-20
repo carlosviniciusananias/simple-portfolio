@@ -1,14 +1,20 @@
 import React, { Component } from "react";
-import './liquida-style.css';
+
+import { LiquidaSection } from "./styles"
+import { Title } from "./styles"
+import { Grid } from "./styles"
+
 import Camiseta from './images/camiseta-liquida.jpg'
 export default class Liquida extends Component {
     render() {
         return (
-            <div className="liquida-section">
+            <LiquidaSection>
                 <div className="container">
-                    <h1 className="title-main-page"><span>LI-QUI-DA!</span> Motivos para amar nossa liquida!</h1>
+                    <Title>
+                        <span>LI-QUI-DA!</span> Motivos para amar nossa liquida!
+                    </Title>
 
-                    <div className="offers">
+                    <Grid>
                         <div className="box-banner">
                             <a href="/"><img src={Camiseta} alt="" /></a>
                         </div>
@@ -18,9 +24,9 @@ export default class Liquida extends Component {
                         <div className="box-banner">
                             <a href="/"><img src={Camiseta} alt="" /></a>
                         </div>
-                    </div>
+                    </Grid>
                 </div>
-            </div>
+            </LiquidaSection>
         );
     }
 }

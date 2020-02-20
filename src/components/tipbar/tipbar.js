@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import './tipbar-style.css';
 
 export default class Tipbar extends Component {
     render() {
