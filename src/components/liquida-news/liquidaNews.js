@@ -4,6 +4,7 @@ import { Grid } from "./styles"
 import { Title } from "./styles";
 
 import Liquida from "./images/liquida.png"
+import LiquidaFeminino from "./images/liquida-feminino.jpg"
 export default class LiquidaNews extends Component {
     render() {
         return (
@@ -17,7 +18,7 @@ export default class LiquidaNews extends Component {
                             <a href="/"><img src={Liquida} alt="" /></a>
                         </div>
                         <div className="box-banner">
-                            <a href="/"><img src={Liquida} alt="" /></a>
+                            <a href="/"><img src={LiquidaFeminino} alt="" /></a>
                         </div>
                     </Grid>
                 </div>

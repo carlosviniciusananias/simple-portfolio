@@ -17,10 +17,6 @@ const formSchema = new Schema({
     email: {
         type: String,
         required: true
-    },
-    description: {
-        type: String,
-        required: true
     }
 });
 
@@ -40,7 +36,6 @@ const Contact = () => (
                 <ContactForm>
                     <TextField name="name" label="name" type="text" placeholder="Seu nome" />
                     <TextField name="email" label="email" type="text" placeholder="Seu e-mail" />
-                    <TextField name="cpf" label="cpf" type="text" placeholder="Seu CPF" />
                     <SubmitField value="Submit" />
                 </ContactForm>
             </Container>

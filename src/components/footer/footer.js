@@ -14,28 +14,26 @@ const Footer = () => {
                 <div className="about-items">
                     <h3>INSTITUCIONAL</h3>
                     <ul>
-                        <li><a href="/">Lorem ipsum dolor lorem</a></li>
-                        <li><a href="/">Lorem ipsum dolor lorem</a></li>
-                        <li><a href="/">Lorem ipsum dolor lorem</a></li>
-                        <li><a href="/">Lorem ipsum dolor lorem</a></li>
+                        <li><a href="/">Nossas lojas</a></li>
+                        <li><a href="/">Sobre a marca</a></li>
+                        <li><a href="/">Trabalhe conosco</a></li>
+                        <li><a href="/">Política de privacidade</a></li>
                     </ul>
                 </div>
                 <div className="about-items">
                     <h3>DÚVIDAS</h3>
                     <ul>
-                        <li><a href="/">Lorem ipsum dolor lorem</a></li>
-                        <li><a href="/">Lorem ipsum dolor lorem</a></li>
-                        <li><a href="/">Lorem ipsum dolor lorem</a></li>
-                        <li><a href="/">Lorem ipsum dolor lorem</a></li>
+                        <li><a href="/">Regulamento seguro</a></li>
+                        <li><a href="/">Política de entrega</a></li>
+                        <li><a href="/">Política de pagamento</a></li>
+                        <li><a href="/">Política de troca e devoluções</a></li>
                     </ul>
                 </div>
                 <div className="about-items">
-                    <h3>ATENDIMENTO</h3>
+                    <h3>MINHA CONTA</h3>
                     <ul>
-                        <li><a href="/">Lorem ipsum dolor lorem</a></li>
-                        <li><a href="/">Lorem ipsum dolor lorem</a></li>
-                        <li><a href="/">Lorem ipsum dolor lorem</a></li>
-                        <li><a href="/">Lorem ipsum dolor lorem</a></li>
+                        <li><a href="/">Minha conta</a></li>
+                        <li><a href="/">Meus pedidos</a></li>
                     </ul>
                 </div>
                 <div className="about-items">

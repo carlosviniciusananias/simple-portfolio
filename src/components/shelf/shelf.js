@@ -29,8 +29,8 @@ export default class Shelf extends Component {
             dots: true,
             arrow: true,
             infinite: true,
-            autoplay: false,
-            speed: 4000,
+            autoplay: true,
+            speed: 3000,
             slidesToShow: 4,
             slidesToScroll: 1
         };

@@ -24,5 +24,5 @@ export const Container = styled.div`
     margin: 0 auto;
     max-width: 1200px;
     align-items: center;
-    grid-template-columns: repeat(3, 1fr)
+    grid-template-columns: repeat(4, 1fr)
 `;

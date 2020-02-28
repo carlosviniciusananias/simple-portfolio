@@ -1,16 +1,19 @@
 import styled from "styled-components";
 
 export const Section = styled.div`
-    margin: 50px 0;
-
     ul {
         list-style: none;
         padding: 0;
     }
 
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+
     .footer-about {
         display: grid;
-        text-align: center;
+        text-align: left;
         grid-template-columns: repeat(4, 1fr);
     }
 
