@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import axios from 'axios'
+import axios from 'axios';
+
+import { Ul } from "./styles";
 
 export default class Menu extends Component {
     state = {
@@ -17,13 +19,13 @@ export default class Menu extends Component {
     render() {
         return (
             <div className="menu-section container">
-                <ul id="menu" className="menu-content">
+                <Ul id="menu" className="menu-content">
                     {this.state.menus.map((menu, name) =>
                         <div key={name}>
                             <p>{menu.name}</p>
                         </div>
                     )}
-                </ul>
+                </Ul>
             </div>
         );
     }

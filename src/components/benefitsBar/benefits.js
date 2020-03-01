@@ -13,8 +13,8 @@ export default class Benefits extends Component {
                             <img src="http://placehold.it/20x20" alt="" />
                         </div>
                         <div className="itemText">
-                            <p><strong>Frete grátis</strong></p>
-                            <p>Para compras acima de R$299,00</p>
+                            <p><strong>Enviamos para todo</strong></p>
+                            <p>Brasil</p>
                         </div>
                     </div>
                     <div className="item">
@@ -31,8 +31,8 @@ export default class Benefits extends Component {
                             <img src="http://placehold.it/20x20" alt="" />
                         </div>
                         <div className="itemText">
-                            <p><strong>Enviamos para todo</strong></p>
-                            <p>Brasil</p>
+                            <p><strong>Parcele sem juros</strong></p>
+                            <p>Em até <strong>6x</strong></p>
                         </div>
                     </div>
                     <div className="item">
@@ -40,8 +40,8 @@ export default class Benefits extends Component {
                             <img src="http://placehold.it/20x20" alt="" />
                         </div>
                         <div className="itemText">
-                            <p><strong>Parcele sem juros</strong></p>
-                            <p>Em até <strong>6x</strong></p>
+                            <p><strong>Frete grátis</strong></p>
+                            <p>Para compras acima de R$299,00</p>
                         </div>
                     </div>
                 </Container>
