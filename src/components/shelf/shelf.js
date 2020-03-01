@@ -39,17 +39,18 @@ export default class Shelf extends Component {
                 <div className="container">
                     <Title>
                         <span>AS MELHORES</span> marcas você encontra aqui!
-                    </Title>                    <Slider {...settings}>
-                        {this.state.products.map(product =>
-                            <ShelfItem>
+                    </Title>                    
+                    <Slider {...settings}>
+                        {this.state.products.map((product, skuname) =>
+                            <ShelfItem key={skuname}>
                                 <ShelfImg>
                                     <img src={product.image} alt={product.skuname} />
                                 </ShelfImg>
                                 <ShelfName>
-                                    <p>{product.skuname}</p>
+                                    <>{product.skuname}</>
                                 </ShelfName>
                                 <div className="shelf-price">
-                                    <p>{product.bestPrice}</p>
+                                    <>{product.bestPrice}</>
                                 </div>
                             </ShelfItem>
                         )}
