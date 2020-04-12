@@ -4,7 +4,6 @@ import { LiquidaSection } from "./styles"
 import { div } from "./styles"
 import { Grid } from "./styles"
 
-import Camiseta from './images/camiseta-liquida.png'
 import Acessorios from './images/acessorios-liquida.png'
 import Blusas from './images/blusas-liquida.png'
 export default class Liquida extends Component {
@@ -15,7 +14,7 @@ export default class Liquida extends Component {
                     <Grid>
                         <div className="box-banner">
                             <a href="/">
-                                <img src={Camiseta} alt="" />
+                                <img src={Blusas} alt="" />
                                 <div className="description">
                                     <h3>camisetas</h3>
                                     <p>encontre seus modelos favoritos</p>
@@ -37,8 +36,8 @@ export default class Liquida extends Component {
                             <a href="/">
                                 <img src={Blusas} alt="" />
                                 <div className="description">
-                                    <h3>tênis</h3>
-                                    <p>sinta-se confortável até nos pés</p>
+                                    <h3>Blusas</h3>
+                                    <p>sinta-se confortável e quente</p>
                                     <span>SHOP NOW</span>
                                 </div>
                             </a>

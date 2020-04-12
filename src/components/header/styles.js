@@ -18,7 +18,19 @@ export const Ul = styled.ul`
     text-align: center;
     grid-template-columns: repeat(5, 1fr);
 
-    p:hover{
-        font-weight: bold;
+    list-style: none;
+
+    li {
+        cursor: pointer;
+    }
+
+    a {
+        text-transform: uppercase;
+        text-decoration: inherit;
+        color: inherit;
+    }
+
+    a:hover{
+        font-weight: 800;
     }
 `;

@@ -21,9 +21,9 @@ export default class Menu extends Component {
             <div className="menu-section container">
                 <Ul id="menu" className="menu-content">
                     {this.state.menus.map((menu, name) =>
-                        <div key={name}>
-                            <p>{menu.name}</p>
-                        </div>
+                        <li key={name}>
+                            <a href="/">{menu.name}</a>
+                        </li>
                     )}
                 </Ul>
             </div>

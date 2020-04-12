@@ -1,26 +1,56 @@
 import styled from "styled-components";
 
 export const Section = styled.div`
-    margin: 50px 0;
-    background-color: #000;
-`;
-
-export const ContactForm = styled.div`
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(4, 1fr);
-`;
-
-export const Container = styled.div`
-    max-width: 1200px;
-    padding: 25px 0;
+    width: 1200px;
     margin: 0 auto;
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(2, 1fr);
+    padding: 50px 0;
 
     .contact-title {
-        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .contact-title p {
+        margin-bottom: 5px;
+        font-weight: 800;
+    }
+
+    .contact-title span {
+        font-size: 12px;
+    }
+
+    .newsletter-input {
+        position: relative;
+        border: 1px solid #000;
+        width: 100%;
+        height: 45px;
+        max-width: 450px;
+    }
+    
+    .form {
+        position: relative;
+    }
+
+    .newsletter-input input {
+        width: 100%;
+        height: 100%;
+        border: none;
+        background: none;
+        padding-left: 10px;
+        color: #414141;
+        font-weight: 300;
+    }
+
+    .form-btn {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 50px;
+        border: 1px solid #000;
+        background: #000;
         color: #FFF;
+        font-size: 24px;
+        font-weight: 100;
+        right: 0;
+        outline: none;
     }
 `;

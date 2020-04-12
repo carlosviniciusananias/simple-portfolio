@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const Section = styled.div`
+    padding: 30px 0;
+    background-color: #f3f3f3;  
+
     ul {
         list-style: none;
         padding: 0;
@@ -28,6 +31,7 @@ export const Section = styled.div`
 
     .footer-credit {
         text-align: center;
+        margin: 0 auto;
     }
 
     .footer-credit p {

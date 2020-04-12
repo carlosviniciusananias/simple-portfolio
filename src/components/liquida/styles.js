@@ -8,10 +8,6 @@ export const Grid = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 425px);
 
-    img {
-        max-width: 350px;
-    }
-
     .description {
 
     }
@@ -32,8 +28,16 @@ export const Grid = styled.div`
         border-bottom: 1px solid #000;
     }
 
+    img {
+        max-width: 350px;
+    }
+
     .box-banner {
         text-align: center;
+        transition: transform .2s;
+    }
+    .box-banner:hover {
+        transform: scale(1.05);
     }
 
     .box-banner a {
