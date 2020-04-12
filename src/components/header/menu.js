@@ -9,7 +9,7 @@ export default class Menu extends Component {
     }
 
     componentDidMount() {
-        axios.get(`http://demo5081211.mockable.io/header`)
+        axios.get(`https://demo5081211.mockable.io/header`)
             .then(res => {
                 const menus = res.data;
                 this.setState({ menus });
