@@ -4,8 +4,6 @@ import Slider from "react-slick";
 import { Title } from "./styles";
 import { ShelfSection } from "./styles";
 import { ShelfItem } from "./styles";
-import { ShelfName } from "./styles";
-import { ShelfImg } from "./styles";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -17,7 +15,7 @@ export default class Shelf extends Component {
     }
 
     componentDidMount() {
-        axios.get(`http://demo5081211.mockable.io/product`)
+        axios.get(`https://demo5081211.mockable.io/product`)
             .then(res => {
                 const products = res.data;
                 this.setState({ products });
@@ -42,14 +40,12 @@ export default class Shelf extends Component {
                     <Slider {...settings}>
                         {this.state.products.map((product, skuname) =>
                             <ShelfItem key={skuname}>
-                                <ShelfImg>
-                                    <img src={product.image} alt={product.skuname} />
-                                </ShelfImg>
-                                <ShelfName>
-                                    <>{product.skuname}</>
-                                </ShelfName>
-                                <div className="shelf-price">
-                                    <>{product.bestPrice}</>
+                                <img src={product.image} alt={product.skuname} />
+                                <div className="name">
+                                    {product.skuname}
+                                </div>
+                                <div className="prices">
+                                    {product.bestPrice}
                                 </div>
                             </ShelfItem>
                         )}

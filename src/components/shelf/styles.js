@@ -22,13 +22,17 @@ export const ShelfSection = styled.div`
 
 export const ShelfItem = styled.div`
     max-width: 295px;
-`;
+    transform: scale(0.9);
+    transition: transform .2s;
 
-export const ShelfName = styled.p`
-    margin: 10px 0;
-`;
+    &:hover {
+        transform: scale(1);
+    }
 
-export const ShelfImg = styled.div`
+    p {
+        margin: 10px 0;
+    }
+
     img {
         max-width: 295px;
         max-height: 295px;

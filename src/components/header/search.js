@@ -6,7 +6,7 @@ export default class Search extends Component {
             <div className="search-section">
                 <div className="search">
                     <div className="logo">
-                        <img src="http://placehold.it/227x48" alt="" />
+                        <img src="https://placehold.it/227x48" alt="" />
                     </div>
                     <div className="form-search">
                         <form className="form-search">

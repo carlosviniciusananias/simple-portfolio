@@ -11,6 +11,10 @@ export const Nav = styled.div`
         align-items: center;
         grid-template-columns: repeat(4, 1fr);
     }
+
+    p {
+        font-size: 12px;
+    }
 `;
 
 export const Ul = styled.ul`

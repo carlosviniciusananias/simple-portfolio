@@ -29,15 +29,16 @@ export const Grid = styled.div`
     }
 
     img {
-        max-width: 350px;
+        max-width: 400px;
     }
 
     .box-banner {
         text-align: center;
+        transform: scale(0.9);
         transition: transform .2s;
     }
     .box-banner:hover {
-        transform: scale(1.05);
+        transform: scale(1);
     }
 
     .box-banner a {
