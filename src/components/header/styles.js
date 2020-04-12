@@ -5,6 +5,12 @@ export const Nav = styled.div`
     color: #FFF;
     padding: 2px 0;
     text-align: center;
+    
+    .navbar-content {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(4, 1fr);
+    }
 `;
 
 export const Ul = styled.ul`
