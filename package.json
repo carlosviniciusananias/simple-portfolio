@@ -6,7 +6,7 @@
     "@formiz/core": "^1.0.0-rc.9",
     "@formiz/validations": "^1.0.0-rc.6",
     "@material-ui/core": "^4.9.5",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "react": "^16.10.1",
     "react-components-form": "^3.8.1",
     "react-dom": "^16.10.1",
